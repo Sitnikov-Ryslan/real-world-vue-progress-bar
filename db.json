@@ -231,24 +231,6 @@
       "date": "",
       "time": "5:00",
       "attendees": []
-    },
-    {
-      "id": 7111760,
-      "user": {
-        "id": "abc123",
-        "name": "Adam"
-      },
-      "category": "nature",
-      "organizer": {
-        "id": "abc123",
-        "name": "Adam"
-      },
-      "title": "djfjjg",
-      "description": "",
-      "location": "",
-      "date": "",
-      "time": "",
-      "attendees": []
     }
   ]
 }
