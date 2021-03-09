@@ -1,10 +1,15 @@
 <template>
-    <div>
-        <label v-if="label">{{ label }}</label>
-        <select :value="value" @change="updateValue" v-bind="$attrs">
-            <option v-for="option in options" :value="option" :key="option" :selected="option === value">{{ option }}</option>
-        </select>
-    </div>
+  <div>
+    <label v-if="label">{{ label }}</label>
+    <select :value="value" @change="updateValue" v-bind="$attrs" v-on="$listeners">
+      <option
+        v-for="option in options"
+        :value="option"
+        :key="option.id"
+        :selected="option === value"
+      >{{ option }}</option>
+    </select>
+  </div>
 </template>
 
 <script>
@@ -15,11 +20,8 @@ export default {
       type: Array,
       required: true
     },
-    label: {
-      type: String,
-      default: ''
-    },
-    value: [String, Number]
+    value: [String, Number],
+    label: String
   },
   methods: {
     updateValue(event) {
@@ -28,6 +30,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-</style>
