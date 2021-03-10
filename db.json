@@ -249,6 +249,24 @@
       "date": "2021-03-01T16:28:00.000Z",
       "time": "19:00",
       "attendees": []
+    },
+    {
+      "id": 4238269,
+      "user": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "category": "housing",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "title": "fncvvcn",
+      "description": "cbnn",
+      "location": "cbcvnb",
+      "date": "2021-03-01T17:09:00.000Z",
+      "time": "12:00",
+      "attendees": []
     }
   ]
 }
