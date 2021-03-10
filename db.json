@@ -231,6 +231,24 @@
       "date": "",
       "time": "5:00",
       "attendees": []
+    },
+    {
+      "id": 3854127,
+      "user": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "category": "nature",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "title": "aaaa",
+      "description": "bbbb",
+      "location": "ccc",
+      "date": "2021-03-01T16:28:00.000Z",
+      "time": "19:00",
+      "attendees": []
     }
   ]
 }
